@@ -1,0 +1,134 @@
+
+:host {
+    background: #f3f3f3;
+    border: 1px solid;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    box-shadow: 5px 10px #9C2D15;
+    border-radius: 4px;
+    margin-left: 200px;
+    overflow: hidden
+  }
+  
+  
+  .profile-header-img > img.img-circle {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #51D2B7;
+    border-radius: 50%;
+  }
+  
+  :host .cards {
+    width: 50%;
+  }
+
+  :host ul {
+    list-style-type: none;
+  }
+
+  .social-btns{
+    font-size: 22px;
+    list-style: none;
+    
+ }
+
+  .social-btns li{
+    margin-bottom: 5px;
+  }
+
+  .social-btns li i{
+    font-size: 22px;
+    
+  }
+
+  .social-btns .btn-personal {
+    
+    //background-color: #38519f;
+    border-color: #293b75;
+    //color: #ffffff;
+    min-width: 180px;
+    color: black;
+    border: 2px solid black;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+   
+  }
+
+  .social-btns .btn-personal:hover {
+    color: #ffffff;
+    background-color: #293b75;
+    transition: all .2s ease-in-out;
+    transform: scale(1.1); 
+    //box-shadow: inset 0 100px 0 0 #D80286;
+   
+  }
+
+
+.social-btns .btn-twitter {
+  background-color: #00a8fa;
+  border-color: #048cce;
+  color: #ffffff;
+  min-width: 250px;
+}
+
+.social-btns .btn-twitter:hover {
+  color: #ffffff;
+  background-color: #048cce;
+}
+
+.social-btns .btn-linkedin {
+  background-color: #00629e;
+  border-color: #044a75;
+  color: #ffffff;
+  min-width: 250px;
+}
+
+.social-btns .btn-linkedin:hover {
+  color: #ffffff;
+  background-color: #044a75;
+}
+
+.social-btns .btn-google {
+  background-color: #df270b;
+  border-color: #a01b03;
+  color: #ffffff;
+  min-width: 250px;
+}
+
+.social-btns .btn-google:hover {
+  color: #ffffff;
+  background-color: #a01b03;
+}
+
+.social-btns .btn-tumblr{
+    background-color: #274665;
+    border-color: #182b3d;
+    color: #ffffff;
+    min-width: 250px;
+}
+
+.social-btns .btn-tumblr:hover {
+  color: #ffffff;
+  background-color: #182b3d;
+}
+
+.social-btns .btn-pinterest{
+    background-color: #cc0000;
+    border-color: #9b0404;
+    color: #ffffff;
+    min-width: 250px;
+}
+
+.social-btns .btn-pinterest:hover {
+  color: #ffffff;
+  background-color: #9b0404;
+}
+
+    
