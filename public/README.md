@@ -69,7 +69,7 @@ git remote add origin https://github.com/slider44/slider44.github.io.git
 
 (if has existing remote) git remote remove origin
 
-git checkout -b local (create new branch)
+git checkout -b local (create new branch- where local is a branch name)
 
 git add .
 
